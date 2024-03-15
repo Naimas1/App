@@ -1,10 +1,15 @@
-﻿namespace App
+﻿namespace FirstApp
 {
-    internal class Program
+    public partial class Form1 : Form
     {
-        static void Main(string[] args)
+        public Form1()
         {
-            Console.WriteLine("Hello, World!");
+            InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
     }
 }
